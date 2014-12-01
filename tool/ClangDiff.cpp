@@ -11,7 +11,7 @@ static cl::OptionCategory ClangDiffCategory("clang-diff options");
 
 static cl::opt<std::string> LeftFilename(cl::Positional,
                                          cl::desc("<first file>"),
-                                         cl:Required);
+                                         cl::Required);
 static cl::opt<std::string> RightFilename(cl::Positional,
                                           cl::desc("<second file>"),
                                           cl::Required);
